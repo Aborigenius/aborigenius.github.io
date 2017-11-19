@@ -2,99 +2,289 @@
 <html lang="en">
 
 <head>
-    <title>SoftUni Blog</title>
-    <link type="text/css" rel="stylesheet" href="styles/style.css" />
-    <script src="scripts/jquery-1.10.2.js"></script>
-    <script src="scripts/bootstrap.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ivan's Presonal Page</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <div class="navbar navbar-default navbar-fixed-top text-uppercase">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="index.html" class="navbar-brand">SoftUni Blog</a>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
+        <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
+                <i class="fa fa-times"></i>
+            </a>
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger" href="#top">Ivan Spiridonov</a>
+            </li>
+            <li>
+                <a class="js-scroll-trigger" href="#top">Home</a>
+            </li>
+            <li>
+                <a class="js-scroll-trigger" href="#about">About</a>
+            </li>
+            <!--           <li>
+                <a class="js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li>
+                <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li> -->
+            <li>
+                <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
 
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="login.html">Login</a></li>
-                    </ul>
-                </div>
-            </div>
+    <!-- Header -->
+    <header class="header" id="top">
+        <div class="text-vertical-center">
+            <h1 style="color:Tomato;">Ivan Spiridonov</h1>
+        <!--    <h3 style="color:rgb(10, 233, 66);">System Administrator & Moron</h3> -->
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger"><h3>System Administrator</h3></a>
         </div>
     </header>
-    <main>
-        <div class="container body-content">
-            <div class="row">
-                <div class="col-md-6">
-                    <article>
-                        <header>
-                            <h2>Why Choosing the Right Storage infrastructure.</h2>
-                        </header>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                            recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
-                            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                            and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                            written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk
-                            of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English
-                            versions from the 1914 translation by H. Rackham.
-                        </p>
-                        <small class="author">
-                            Lorem Generator
-                        </small>
-                        <div class="pull-right">
-                            <a class="btn btn-default btn-xs" href="viewpost.html">Read More &raquo;</a>
-                        </div>
-                        <footer>
 
-                        </footer>
-                    </article>
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container text-center">
+            <h2>I am an outgoing and energetic (ask anybody) professional and a masterful problem solver, therefore, the perfect candidate for your next project!</h2>
+<p class="lead"></p>
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services bg-primary text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 mx-auto">
+                    <h2>My Skills</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-windows fa-stack-1x text-primary"></i>
+                  </span>
+                                <h4>
+                                    <strong>Windows Servers</strong>
+                                </h4>
+                                <p>My daily life.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-server fa-stack-1x text-primary"></i>
+                  </span>
+                                <h4>
+                                    <strong>Active Directory</strong>
+                                </h4>
+                                <p>I own it.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <!--                  <span class="fa-stack fa-4x">
+                   <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                  </span> -->
+                                <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-terminal fa-stack-1x text-primary"></i>
+                    </span>
+                                </span>
+                                <h4>
+                                    <strong>Powershell</strong>
+                                </h4>
+                                <p>Powershell is ... awesome</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                  </span>
+                                <h4>
+                                    <strong>SharePoint</strong>
+                                </h4>
+                                <p>Love it, Hate it!</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
                 </div>
-                <div class="col-md-6">
-                    <article>
-                        <header>
-                            <h2>Why Choosing the Right Storage infrastructure.</h2>
-                        </header>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-                            recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
-                            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
-                            and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                            written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk
-                            of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English
-                            versions from the 1914 translation by H. Rackham.
-                        </p>
-                        <small class="author">
-                                Lorem Generator
-                            </small>
-                        <div class="pull-right">
-                            <a class="btn btn-default btn-xs" href="#">Read More &raquo;</a>
-                        </div>
-                        <footer>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 
-                        </footer>
-                    </article>
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Did I mention my love to the good wine?</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto text-center">
+                    <h2>My Beloved</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-fluid" src="img/portfolio-1s.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-fluid" src="img/portfolio-2s.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-fluid" src="img/portfolio-3s.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-fluid" src="img/portfolio-4s.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary text-white">
+        <div class="container text-center">
+            <h4>           
+                "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear.
+                 I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain"
+                              </h4>
+                              <p class="author">Bene Gesserit - Litany Against Fear</p>
+              
+            <!-- <a href="https://stackoverflow.com/" class="btn btn-lg btn-light"> <i class="fa fa-stack-overflow fa-fw fa-3x"></i>The Source of All wisdom</a> -->
+            <a href="https://en.wikipedia.org/wiki/Bene_Gesserit" class="btn btn-lg btn-dark"><i class="fa fa-stack-overflow fa-fw fa-3x"></i>The Source of All wisdom</a>
+        </div>
+    </aside>
+
+    <!-- Map -->
+    <!-- <section id="contact" class="map"> -->
+            <!-- <iframe  width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11515.277121708303!2d18.32820204223547!3d43.81810784551415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssarajevo%2C+camp+butmir!5e0!3m2!1sen!2sbg!4v1510395058855" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+     <!--   <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe> -->
+        <!-- <br/>
+        <small>
+     <!--   <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a> -->
+     <!-- <a href="https://www.google.bg/maps/search/sarajevo,+camp+butmir/@43.8181078,18.328202,15z/data=!3m1!4b1?hl=en"></a> -->
+      <!-- </small> -->
+    <!-- </section> -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto text-center">
+<h4>
+    <strong>References & CV</strong>
+</h4>
+<ul class="list-unstyled">
+    <li>
+        <i class="fa fa-address-card"></i> Available on request
+    </li>
+    <li>
+        <i class="fa fa-phone fa-fw"></i> Available on request</li>
+    <li>
+        <i class="fa fa-envelope-o fa-fw"></i>
+        <a href="mailto:ivan@ivanspiridonov.com">Email Me Something</a>
+    </li>
+</ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/Aborigenius">
+                                My<i class="fa fa-github fa-fw fa-3x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="http://blog.ivanspiridonov.com">
+                                My<i class="fa fa-wordpress fa-fw fa-3x"></i>
+                            </a>
+                        </li>
+                 <!--       <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-dribbble fa-fw fa-3x"></i>
+                            </a>
+                        </li> -->
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Ivan 2017
+                   </p>
                 </div>
             </div>
         </div>
-    </main>
-
-    <footer>
-        <div class="container modal-footer">
-            <p>&copy; 2016 - Software University Foundation</p>
-        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
+            <i class="fa fa-chevron-up fa-fw fa-1x"></i>
+        </a>
     </footer>
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.js"></script>
 
 </body>
 
